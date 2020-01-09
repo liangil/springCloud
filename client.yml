@@ -1,13 +1,13 @@
 eureka:
   client:
-    service-url: http://localhost:8621/eureka
+    service-url: http://localhost:8761/eureka
 management:
   endpoint:
     health:
       show-details: always
 spring:
   application:
-    name: eureka-client
+    name: eureka-client111
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1:3306/springclound
