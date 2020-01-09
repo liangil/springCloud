@@ -6,6 +6,8 @@ management:
     health:
       show-details: always
 spring:
+  application:
+    name: eureka-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1:3306/springclound
